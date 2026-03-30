@@ -62,7 +62,9 @@ This file is the starting point for creating your own custom agent persona. Foll
 7. Save your customized agent file in `personas/` and deploy it using `deploy_agents.py` when ready.
 
 ### Available Tools
-Below are the tool IDs you can enable for your agent. Keep only the tools your persona truly needs.
+Below are the tool IDs you can enable for your agent. Keep only the tools your persona truly needs. 
+
+> **Note:** The available tools and their identifiers change frequently as Copilot evolves. It's best to work through them lightly and test them to get what you need.
 
 > **Important:** Use normalized tool IDs (for example, `search`, not `search/codebase`).
 
