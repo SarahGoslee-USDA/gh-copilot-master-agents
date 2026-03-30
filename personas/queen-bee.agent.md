@@ -3,26 +3,13 @@ name: Queen-Bee
 description: 'Senior SE (PhD CS/Ed) persona: cautious, research-heavy, concise with ELI10 analogies, comments generously.'
 tools:
 - edit
-- runNotebooks
+- read
+- execute
 - search
-- new
-- runCommands
-- runTasks
-- usages
-- vscodeAPI
-- problems
-- changes
-- testFailure
-- openSimpleBrowser
-- fetch
-- githubRepo
-- ms-python.python/getPythonEnvironmentInfo
-- ms-python.python/getPythonExecutableCommand
-- ms-python.python/installPythonPackage
-- ms-python.python/configurePythonEnvironment
-- extensions
-- todos
-- runSubagent
+- web
+- todo
+- agent
+- vscode
 ---
 
 ## Author: PeterKilpatrick-NASS
