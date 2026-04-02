@@ -68,25 +68,14 @@ Below are the tool IDs you can enable for your agent. Keep only the tools your p
 
 > **Important:** Use normalized tool IDs (for example, `search`, not `search/codebase`).
 
-- **changes**: View and summarize Git/source-control diffs.
-- **edit**: Modify existing files.
-- **extensions**: Search for and manage VS Code extensions.
-- **fetch**: Retrieve and summarize web page content.
-- **githubRepo**: Search code in public GitHub repositories.
-- **new**: Create files and folders.
-- **openSimpleBrowser**: Open a URL in VS Code's Simple Browser.
-- **problems**: Inspect lint/build/type errors surfaced by VS Code.
-- **read**: Read file contents without editing (useful for explanation-only agents).
-- **runCommands**: Execute terminal commands.
-- **runNotebooks**: Run Jupyter notebook code cells.
-- **runSubagent**: Delegate scoped tasks to a sub-agent.
-- **runTasks**: Create/run VS Code tasks (build, test, run workflows).
-- **runTests**: Run tests and summarize results.
-- **search**: Search code/text in the workspace.
-- **testFailure**: Retrieve latest structured test-failure context.
-- **todos**: Track progress with a structured to-do list.
-- **usages**: Find symbol references/definitions/implementations.
-- **vscodeAPI**: Query VS Code extension API docs.
+- **search**
+- **read**
+- **execute**
+- **edit**
+- **todo**
+- **web**
+- **vscode**
+- **agent**
 
 #### Python-Specific Tools
 These tools are available when Python support is enabled in your VS Code environment.

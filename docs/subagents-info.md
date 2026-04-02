@@ -27,7 +27,7 @@ Subagents are typically orchestrator-initiated. You don't need to manually type 
 
 ### Example Orchestration Pattern
 
-You can use an agent like `queen-bee` as your **Coordinator**. The Coordinator manages the overall task and delegates subtasks to specialized worker agents.
+You can use an agent like `queen-bee` as your **Coordinator**. The Coordinator manages the overall task and delegates subtasks to specialized worker agents. Use ["*"] to make subagents of all other agents in the .github folder.
 
 ```markdown
 ---
@@ -61,9 +61,3 @@ tools: ['read', 'search']
 Review code for security vulnerabilities...
 ```
 
-## Next Steps for This App
-
-To fully incorporate this into `gh-copilot-master-agents`:
-1. Ensure deployment scripts correctly process and register subagent dependencies.
-2. Designate or create an orchestrator agent (e.g., `queen-bee`).
-3. Update the frontmatter of your existing personas to include `user-invocable: false` if they are meant to be pure subagents.

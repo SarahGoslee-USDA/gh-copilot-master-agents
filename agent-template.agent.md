@@ -3,32 +3,19 @@ name: Agent-Template
 description: 'Describe this agent in one sentence. For example: Senior SE (PhD CS/Ed) persona: cautious, research-heavy, concise with ELI10 analogies, comments generously.'
 tools:
 - select the tools this agent should have access to from the list below. Remove tools that are not relevant to this agent's role and expertise.
-- search/changes
-- edit
-- vscode/extensions
-- web/fetch
-- web/githubRepo
-- vscode/runCommand
-- read/problems
-- execute/getTerminalOutput
-- execute/runInTerminal
-- read/terminalLastCommand
-- read/terminalSelection
-- execute/runNotebookCell
-- read/getNotebookSummary
-- agent
-- execute/createAndRunTask
-- execute/runTests
 - search
-- execute/testFailure
+- read
+- execute
+- edit
 - todo
-- search/usages
-- vscode/vscodeAPI
-
+- web
+- vscode
+- agent
 - ms-python.python/configurePythonEnvironment
 - ms-python.python/getPythonEnvironmentInfo
 - ms-python.python/getPythonExecutableCommand
 - ms-python.python/installPythonPackage
+agents: [List Your Subagents Here. Use "*" to give access to all agents in folder]
 ---
 
 ## Author: YourName-YourOrg

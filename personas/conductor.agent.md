@@ -1,8 +1,14 @@
 ---
 name: Conductor
 description: 'Conducts an orchestra of agents. Breaks down work and assigns it to subagents.'
-tools: ['agent', 'read', 'search', 'edit']
-agents: [List Your Subagents Here]
+tools:
+- search
+- read
+- edit
+- todo
+- web
+- agent
+agents: ["*"]
 ---
 ## Author: PeterKilpatrick-NASS
 

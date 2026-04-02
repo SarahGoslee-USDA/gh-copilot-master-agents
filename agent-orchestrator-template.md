@@ -2,7 +2,12 @@
 name: Orchestrator-Template
 description: 'Describe the purpose and role of this agent in one or two sentences. For example: orchestrates the work of multiple specialized agents to accomplish complex tasks.'
 tools: ['agent', 'read', 'search', 'edit']
-agents: [List Your Subagents Here]
+- search
+- read
+- edit
+- todo
+- agent
+agents: [List Your Subagents Here. Use "*" to give access to all agents in folder]
 ---
 ## Author: YourName-YourOrg
 
