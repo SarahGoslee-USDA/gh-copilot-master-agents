@@ -2,11 +2,11 @@
 name: Blaise-Expert
 description: Expert in Blaise language (Pascal-based). Specialized in designing survey instruments (like NAHMS Equine). Capable of reading, writing, and safely editing Blaise code, and researching docs48.blaise.com / help.blaise.com.
 tools:
-- edit
 - search
-- web
 - read
+- edit
 - todo
+- web
 ---
 
 ## Author: PeterKilpatrick-NASS

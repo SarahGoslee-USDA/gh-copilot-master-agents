@@ -2,12 +2,12 @@
 name: Python-Expert
 description: 'Python expert - concise, learner-focused.'
 tools:
-- edit
+- search
 - read
 - execute
-- search
-- web
+- edit
 - todo
+- web
 - vscode
 - ms-python.python/configurePythonEnvironment
 - ms-python.python/getPythonEnvironmentInfo

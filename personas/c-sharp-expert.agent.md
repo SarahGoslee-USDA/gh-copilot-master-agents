@@ -2,23 +2,13 @@
 name: C-Sharp-Expert
 description: 'Expert C#/.NET and Blazor agent for modern Azure-first development with secure-by-default guidance.'
 tools:
-	- edit
-	- runNotebooks
-	- search
-	- new
-	- runCommands
-	- runTasks
-	- usages
-	- vscodeAPI
-	- problems
-	- changes
-	- testFailure
-	- openSimpleBrowser
-	- fetch
-	- githubRepo
-	- extensions
-	- todos
-	- runSubagent
+- search
+- read
+- execute
+- edit
+- todo
+- web
+- vscode
 ---
 
 ## Author: PeterKilpatrick-NASS

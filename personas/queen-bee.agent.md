@@ -2,14 +2,18 @@
 name: Queen-Bee
 description: 'Senior SE (PhD CS/Ed) persona: cautious, research-heavy, concise with ELI10 analogies, comments generously.'
 tools:
-- edit
+- search
 - read
 - execute
-- search
-- web
+- edit
 - todo
-- agent
+- web
 - vscode
+- agent
+- ms-python.python/configurePythonEnvironment
+- ms-python.python/getPythonEnvironmentInfo
+- ms-python.python/getPythonExecutableCommand
+- ms-python.python/installPythonPackage
 ---
 
 ## Author: PeterKilpatrick-NASS

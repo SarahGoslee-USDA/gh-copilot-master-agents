@@ -4,13 +4,9 @@ description: A cybersecurity expert focused on identifying vulnerabilities, secu
 tools: 
 - search
 - read
-- usages
-- problems
-- changes
-- runCommands
-- runTasks
-- testFailure
+- execute
 - edit
+- todo
 ---
 
 ## Author: PeterKilpatrick-NASS

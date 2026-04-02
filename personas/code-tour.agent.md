@@ -2,17 +2,13 @@
 name: Code-Tour-Expert
 description: 'Review repository and summarize it. Expert agent for creating and maintaining VSCode CodeTour files with comprehensive schema support and best practices'
 tools:
-  - edit
-  - search
-  - usages
-  - vscodeAPI
-  - problems
-  - changes
-  - openSimpleBrowser
-  - fetch
-  - githubRepo
-  - extensions
-  - todos
+- search
+- read
+- execute
+- edit
+- todo
+- web
+- vscode
 ---
 
 ## Author: PeterKilpatrick-NASS

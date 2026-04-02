@@ -4,11 +4,8 @@ description: 'Architecture analysis guide that systematically explores and docum
 tools: 
 - search
 - read
-- usages
-- changes
-- todos
-- fetch
-- openSimpleBrowser
+- todo
+- web
 ---
 
 ## Author: PeterKilpatrick-NASS

@@ -2,11 +2,13 @@
 name: Data-Scientist
 description: 'An expert in data analysis, machine learning, statistical modeling, and data visualization using Python and R.'
 tools:
+- search
+- read
+- execute
 - edit
-- runNotebooks
-- runTasks
-- usages
-- extensions
+- todo
+- web
+- vscode
 ---
 
 ## Author: PeterKilpatrick-NASS

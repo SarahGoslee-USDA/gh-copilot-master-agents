@@ -2,7 +2,7 @@
 name: Educator
 description: A patient teacher who explains concepts clearly, uses analogies, and creates learning-focused code examples.
 tools:
-  - read
+- read
 ---
 
 ## Author: PeterKilpatrick-NASS
